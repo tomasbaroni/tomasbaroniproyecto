@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.contenedor {
+    height: 20%;
+    width: 100%;
+    background-color: rgb(42, 49, 42);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.subcontenedor1 {
+    height: 100%;
+    width: 30%;
+
+    display: 40%;
+}
+.subcontenedor2 {
+    width: 70%;
+    display: 70%;
+    
+}
+.logo {
+    height: auto; 
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+a{
+    padding: 15px;
+    background-color: rgb(119, 70, 113);
+    border-radius: 25px;
+    color: rgb(255, 255, 245);
+    border: 1px rgb(92, 23, 83);
+    text-decoration: none;
+}
+a:hover{
+    background-color: pink;
+    color: black;
+}
+
+body,html{
+    height:100%; /*Siempre es necesario cuando trabajamos con alturas*/
+    background-color: grey;  
+}
+
+
+.fondoindex img {
+   background-size: cover;
+    position: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+.encabezado img{
+    width: 100%;  
+    height: 30%;
+
+}    
+.productos img {
+   margin-left: 0px;
+    width: 200px;
+    border: none;    
+}
+.productos{
+ 
+    border:1px solid black;
+    width: 60%;
+    margin-left: 39%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.grafica img {
+    width: 200px;
+    display: inline-block;
+    border: none;
+    margin-left: 0px;
+    
+    
+}
+.motherboard img {
+    
+    width: 20%;
+    display: inline-block;
+    padding: 1px;
+    border: none;
+    
+}
+.motherboard{
+     border:1px solid black;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 39%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer{
+    color: #FFF;
+    background: #000;
+     /*El div será ubicado con relación a la pantalla*/
+    left:0px; /*A la derecha deje un espacio de 0px*/
+    right:0px; /*A la izquierda deje un espacio de 0px*/
+    bottom: 0px; /*Abajo deje un espacio de 0px*/
+    height:50px; /*alto del div*/
+    font-family: 'Bebas Neue';
+    padding: 10px;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    
+    
+}
+
+
+.grafica{
+    text-align: center;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 39%;
+}
+
+.texto {
+    margin-left: 15px;
+}
+.productos:hover{
+    background-color: rgb(182, 179, 181);
+}
+
+.marcas {
+    text-align: center;
+    width: 100%;
+}
+.marcas img{
+    margin: 50px 40px 0px 20px;
+    width: 100px 50px;
+}
+.placa h1{
+    margin-left: 15px;  
+    
+}
+
+.grafica:hover{
+    background-color:rgb(182, 179, 181) ;
+}
+
+.mother h1{
+    margin-left: 15px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.motherboard:hover{
+    background-color:rgb(182, 179, 181) ;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    
+
+}
+form{
+    text-align: center;
+    font-size: 60px;
+    
+    
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.formulario{
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.tabla{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px auto; 
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: 50px;
+    background: white;
+    width: 66%;
+}
+.table__tittle{
+    
+    background:rgb(92, 23, 83);
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1,9em;
+    font-weight: bold;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.table__header, .table__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.table__header{
+    font-weight: bold;
+    font-size: 1,5em;
+    font-style: italic;
+}
+.registro {
+    width: 80%;
+    background-color: pink;
+    margin: 0px auto;
+    padding: 70px 0px;
+    margin-top: 100px;
+}
+input{
+    padding: 5px 15px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(151, 148, 149);
+    
+
+}
+tr:nth-child(odd){
+    background-color: rgb(150, 144, 150);
+    
+
+}
+
+.color{
+    background-color: rgb(35, 156, 226);
+}
+.preguntas{
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+    margin: 0px 400px;
+    padding: 30px 20px;   
+}
+
+.grid-contenedor{
+    display: grid;
+    background-color:white;
+    grid-template-columns: auto auto auto;
+
+}
+.grid-contenedor div{
+    background-color: white;
+
+}
